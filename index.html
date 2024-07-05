@@ -16,6 +16,7 @@
     />
     <!-- Javascript link -->
     <script src="script.js"></script>
+  
   </head>
   <body>
     <header class="header container-fluid">
@@ -80,48 +81,50 @@
       </div>
     </section>
 
-    <!-- About us section -->
-    <section class="about-us">
-      <h2>About Us</h2>
-      <div class="about-content">
-        <div class="left-text">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit
-            amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua.
-          </p>
-        </div>
-        <div class="right-image">
-          <img src="images/image1.jpg" alt="About Us Image" />
-        </div>
+  
+<!-- About us section -->
+<section class="about-us">
+  <h2>About Us</h2>
+  <div class="about-content">
+    <div class="left-text">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
+        ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit
+        amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua.
+      </p>
+    </div>
+    <div class="right-image">
+      <img src="images/image1.jpg" alt="About Us Image" />
+    </div>
+  </div>
+  <div class="about-content">
+    <div class="left-image">
+      <img src="images/image2.jpg" alt="About Us Image 2" />
+    </div>
+    <div class="right-stats">
+      <div class="stat">
+        <span class="count" data-target="10000">0</span>
+        <p>active travellers</p>
       </div>
-      <div class="about-content">
-        <div class="left-image">
-          <img src="images/image2.jpg" alt="About Us Image 2" />
-        </div>
-        <div class="right-stats">
-          <div class="stat">
-            <span>10K</span>
-            <p>active travellers</p>
-          </div>
-          <div class="stat">
-            <span>500+</span>
-            <p>travel destinations</p>
-          </div>
-          <div class="stat">
-            <span>50K</span>
-            <p>happy travellers</p>
-          </div>
-        </div>
+      <div class="stat">
+        <span class="count" data-target="500">0</span>
+        <p>travel destinations</p>
       </div>
-    </section>
+      <div class="stat">
+        <span class="count" data-target="50000">0</span>
+        <p>happy travellers</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- Why choose us section -->
+
+<!-- Why choose us section -->
     <section class="why-choose-us">
       <div class="left">
         <h3>
@@ -175,35 +178,17 @@
     <section>
       <div class="gallery">
         <h2 class="gallery-heading">Gallery</h2>
-        <div class="gallery-container">
-          <img
-            class="gallery-item gallery-item-1"
-            src="images/gallery1.jpeg"
-            data-index="1"
-          />
-          <img
-            class="gallery-item gallery-item-2"
-            src="images/gallery2.jpeg"
-            data-index="2"
-          />
-          <img
-            class="gallery-item gallery-item-3"
-            src="images/gallery3.png"
-            data-index="3"
-          />
-          <img
-            class="gallery-item gallery-item-4"
-            src="images/gallery4.jpg"
-            data-index="4"
-          />
-          <img
-            class="gallery-item gallery-item-5"
-            src="images/gallery5.jpg"
-            data-index="5"
-          />
+        <!-- <div class="gallery"> -->
+          <div class="gallery-container">
+              <img class="gallery-item gallery-item-1" src="images/gallery1.jpeg" data-index="1">
+              <img class="gallery-item gallery-item-2" src="images/gallery2.jpeg" data-index="2">
+              <img class="gallery-item gallery-item-3" src="images/gallery3.png" data-index="3">
+              <img class="gallery-item gallery-item-4" src="images/gallery4.jpg" data-index="4">
+              <img class="gallery-item gallery-item-5" src="images/gallery5.jpg" data-index="5">
+          </div>
+  
+      <!-- </div> -->
         </div>
-        <div class="gallery-controls"></div>
-      </div>
     </section>
 
     <br /><br /><br />
@@ -278,10 +263,75 @@
               </div>
             </div>
           </div>
+          <div class="card">
+            <img src="images/image2.jpg" alt="Package 4" class="card-image" />
+            <div class="card-content">
+              <div class="card-location">
+                <i class="fas fa-map-marker-alt"></i>
+                <span><b>Gilgit</b></span>
+              </div>
+              <div class="card-duration">
+                <i class="fas fa-clock"></i>
+                <span>5 days 4 nights</span>
+                <strong>9,000 PKR</strong>
+              </div>
+              <div class="card-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/image1.jpg" alt="Package 5" class="card-image" />
+            <div class="card-content">
+              <div class="card-location">
+                <i class="fas fa-map-marker-alt"></i>
+                <span><b>Murree</b></span>
+              </div>
+              <div class="card-duration">
+                <i class="fas fa-clock"></i>
+                <span>5 days 4 nights</span>
+                <strong>7,000 PKR</strong>
+              </div>
+              <div class="card-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/image2.jpg" alt="Package 6" class="card-image" />
+            <div class="card-content">
+              <div class="card-location">
+                <i class="fas fa-map-marker-alt"></i>
+                <span><b>Neelum Valley</b></span>
+              </div>
+              <div class="card-duration">
+                <i class="fas fa-clock"></i>
+                <span>5 days 4 nights</span>
+                <strong>11,000 PKR</strong>
+              </div>
+              <div class="card-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
         </div>
         <button class="next-arrow">&gt;</button>
       </div>
     </section>
+    
+
 
     <!-- Explore Section -->
     <section class="explore-section">
